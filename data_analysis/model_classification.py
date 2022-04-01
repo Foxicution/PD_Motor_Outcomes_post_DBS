@@ -42,7 +42,7 @@ tf.get_logger().setLevel('ERROR')
 #Data
 #--------------------------------------
 
-df = pd.read_csv("MRMR.csv", index_col=0)
+df = pd.read_csv("MRMR_2.csv", index_col=0)
 X = df.iloc[:, 0:-1]
 y = df.iloc[:, -1]
 X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.15)
