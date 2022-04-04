@@ -9,29 +9,19 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelBinarizer
+from sklearn.preprocessing import StandardScaler, LabelBinarizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (accuracy_score, precision_score,
-                             recall_score,f1_score, confusion_matrix,
-                             classification_report, mean_squared_error, auc,
-                             roc_curve, roc_auc_score)
+from sklearn.metrics import (accuracy_score, confusion_matrix, auc, roc_curve)
 from sklearn.pipeline import make_pipeline
-from sklearn.model_selection import train_test_split, KFold
+from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.inspection import permutation_importance
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC, OneClassSVM
 from statistics import stdev
 from random import choice
-import time
-import os
 import tensorflow as tf
-from sklearn.utils import class_weight
 from sklearn.ensemble import RandomForestClassifier
-import matplotlib.pyplot as plot
 from numpy import interp
 
 

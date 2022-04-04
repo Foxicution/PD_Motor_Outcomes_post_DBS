@@ -2,9 +2,6 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import zscore
 import scipy.stats as stats
 
 def calculate_pvalues_S(df):
@@ -37,7 +34,7 @@ print(df)
 ##############################################################################
 ## Calculating features with sig dif between populations ##
 
-from scipy.stats import f_oneway, kruskal, mannwhitneyu
+from scipy.stats import kruskal
 
 outcome = ['Efektas DBS (1-blogas, 2-geras, 3-labai geras)', 'Psicho_komplikacijos']
 
