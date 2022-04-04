@@ -1,6 +1,6 @@
 # PD_Motor_Outcomes_post_DBS
  
-Publishing the whole codebase for "Radiomic features of amygdala nuclei and hippocampus subfields help to predict deep brain stimulation motor outcomes for Parkinson‘s disease patients" paper.
+Publishing the whole codebase for "Radiomic features of amygdala nuclei and hippocampus subfields help to predict deep brain stimulation motor outcomes for Parkinson‘s disease patients" paper. The requirements are found in [requirements.txt](requirements.txt)
 
 NOTE: The codebase is extremely messy due to rapid solo development. Some minor data preparation tasks were done by hand (will be outlined in the relevant parts).
 
