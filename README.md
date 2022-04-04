@@ -14,4 +14,5 @@ The folder data_analysis contains all the files and scripts that produced the re
 3. "draw_ROCs.py", "draw_correlation_heatmap.py" and "Graphing/draw_boxplots.py" produces the figures seen in the paper in a ".tif" format.
 
 Graphics found in the paper are in the "..." folder.
-![Boxplots](https://github.com/Foxicution/PD_Motor_Outcomes_post_DBS/tree/main/graphs/boxplots.png?raw=true)
+
+![Boxplots](graphs/boxplots.png)
