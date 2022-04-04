@@ -94,8 +94,6 @@ O_DBS = pd.read_csv("DBS_Outcome_Correlations.csv", index_col=0)
 flattened = pd.read_csv("Redundancy.csv", index_col=(0, 1))
 f_df = pd.read_csv("Temp.csv", index_col=0)
 for index in flattened.index:
-    # print(index[0])
-    # print(O_DBS.loc[O_DBS['feature'] == index[0]]['p-value'].iloc[0])
     if (O_DBS.loc[O_DBS['feature'] == index[0]]['p-value'].iloc[0] <
         O_DBS.loc[O_DBS['feature'] == index[1]]['p-value'].iloc[0]):
         if index[0] in f_df.columns:
